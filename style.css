@@ -1,0 +1,220 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2870
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 :root \{\
+  --background: #f5f1e8;\
+  --text: #182337;\
+  --accent: #2454d6;\
+  --white: #ffffff;\
+  --line: rgba(24, 35, 55, 0.18);\
+  --max-width: 1200px;\
+\}\
+\
+* \{\
+  box-sizing: border-box;\
+\}\
+\
+html \{\
+  scroll-behavior: smooth;\
+\}\
+\
+body \{\
+  margin: 0;\
+  background: var(--background);\
+  color: var(--text);\
+  font-family: Arial, Helvetica, sans-serif;\
+  font-size: 18px;\
+  line-height: 1.55;\
+\}\
+\
+img \{\
+  display: block;\
+  width: 100%;\
+  height: auto;\
+\}\
+\
+h1,\
+h2,\
+h3,\
+p \{\
+  margin-top: 0;\
+\}\
+\
+h1 \{\
+  max-width: 800px;\
+  margin-bottom: 24px;\
+  font-size: clamp(3.5rem, 9vw, 8rem);\
+  line-height: 0.9;\
+  letter-spacing: -0.06em;\
+\}\
+\
+h2 \{\
+  max-width: 700px;\
+  font-size: clamp(2.2rem, 5vw, 4.5rem);\
+  line-height: 1;\
+  letter-spacing: -0.04em;\
+\}\
+\
+h3 \{\
+  font-size: 1.25rem;\
+\}\
+\
+p \{\
+  max-width: 700px;\
+\}\
+\
+.hero \{\
+  display: grid;\
+  grid-template-columns: 1fr 1fr;\
+  min-height: 90vh;\
+\}\
+\
+.hero-text \{\
+  display: flex;\
+  flex-direction: column;\
+  align-items: flex-start;\
+  justify-content: center;\
+  padding: 8vw;\
+\}\
+\
+.hero img \{\
+  height: 100%;\
+  min-height: 650px;\
+  object-fit: cover;\
+\}\
+\
+.subtitle \{\
+  max-width: 540px;\
+  margin-bottom: 36px;\
+  font-size: 1.35rem;\
+\}\
+\
+.eyebrow \{\
+  margin-bottom: 18px;\
+  font-size: 0.8rem;\
+  font-weight: bold;\
+  letter-spacing: 0.12em;\
+  text-transform: uppercase;\
+\}\
+\
+.button \{\
+  display: inline-block;\
+  padding: 16px 24px;\
+  border-radius: 100px;\
+  background: var(--accent);\
+  color: var(--white);\
+  font-weight: bold;\
+  text-decoration: none;\
+\}\
+\
+.button:hover,\
+.button:focus \{\
+  opacity: 0.85;\
+\}\
+\
+main section \{\
+  display: grid;\
+  grid-template-columns: 1fr 1fr;\
+  gap: 60px;\
+  max-width: var(--max-width);\
+  margin: 0 auto;\
+  padding: 120px 40px;\
+  border-bottom: 1px solid var(--line);\
+\}\
+\
+.steps \{\
+  display: grid;\
+  gap: 30px;\
+\}\
+\
+.steps article \{\
+  padding-top: 24px;\
+  border-top: 1px solid var(--line);\
+\}\
+\
+.steps span \{\
+  display: block;\
+  margin-bottom: 30px;\
+  font-size: 0.85rem;\
+  font-weight: bold;\
+\}\
+\
+.gallery \{\
+  display: grid;\
+  gap: 24px;\
+\}\
+\
+.team \{\
+  display: grid;\
+  grid-template-columns: repeat(2, 1fr);\
+  gap: 30px;\
+\}\
+\
+.team img \{\
+  margin-bottom: 20px;\
+  aspect-ratio: 1 / 1;\
+  object-fit: cover;\
+\}\
+\
+.download-section \{\
+  display: block;\
+  text-align: center;\
+\}\
+\
+.download-section h2,\
+.download-section p \{\
+  margin-right: auto;\
+  margin-left: auto;\
+\}\
+\
+.download-section p \{\
+  margin-bottom: 32px;\
+\}\
+\
+footer \{\
+  max-width: var(--max-width);\
+  margin: 0 auto;\
+  padding: 40px;\
+  font-size: 0.85rem;\
+\}\
+\
+@media (max-width: 800px) \{\
+  body \{\
+    font-size: 16px;\
+  \}\
+\
+  .hero,\
+  main section \{\
+    grid-template-columns: 1fr;\
+  \}\
+\
+  .hero \{\
+    min-height: auto;\
+  \}\
+\
+  .hero-text \{\
+    padding: 80px 24px;\
+  \}\
+\
+  .hero img \{\
+    min-height: 0;\
+    aspect-ratio: 4 / 3;\
+  \}\
+\
+  main section \{\
+    gap: 30px;\
+    padding: 80px 24px;\
+  \}\
+\
+  .team \{\
+    grid-template-columns: 1fr;\
+  \}\
+\
+  footer \{\
+    padding: 30px 24px;\
+  \}\
+\}}
