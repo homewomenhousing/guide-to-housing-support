@@ -115,13 +115,28 @@ h2 { margin: 0; font-weight: 400; letter-spacing: -.035em; line-height: 1.06; }
 }
 .meta-grid span { display: block; margin-bottom: 8px; font-size: 12px; text-transform: uppercase; letter-spacing: .1em; }
 .meta-grid strong { font-weight: 450; font-size: 18px; line-height: 1.35; }
+.photo-trio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: var(--blue-dark);
+}
 
-.photo-pair { display: grid; grid-template-columns: 1fr 1fr; background: var(--blue-dark); }
-.photo-pair figure { height: 76vh; min-height: 620px; overflow: hidden; }
-.photo-pair figure:first-child { border-right: 1px solid rgba(255,255,255,.25); }
-.photo-pair img { height: 100%; object-fit: cover; }
-.photo-pair figure:first-child img { object-position: 50% 42%; }
-.photo-pair figure:last-child img { object-position: 50% 50%; }
+.photo-trio figure {
+  height: 76vh;
+  min-height: 620px;
+  overflow: hidden;
+}
+
+.photo-trio figure:not(:last-child) {
+  border-right: 1px solid rgba(255,255,255,.25);
+}
+
+.photo-trio img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
 
 .aims { background: var(--blue); color: var(--blue-dark); }
 .aim-list { list-style: none; margin: 0; padding: 0; counter-reset: aim; }
