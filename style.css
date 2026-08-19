@@ -375,7 +375,7 @@ h2 {
 
 .fold-gallery {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 560px));
+  grid-template-columns: repeat(2, minmax(0, 520px));
   justify-content: center;
   align-items: center;
   gap: clamp(50px, 8vw, 120px);
@@ -383,11 +383,6 @@ h2 {
 }
 
 .fold-layout,
-width: 100%;
-  max-width: 520px;
-  justify-self: center;
-}
-
 .fold-diagram {
   width: 100%;
   max-width: 520px;
