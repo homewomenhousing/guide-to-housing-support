@@ -383,8 +383,13 @@ h2 {
 }
 
 .fold-layout,
+width: 100%;
+  max-width: 520px;
+  justify-self: center;
+}
+
 .fold-diagram {
-  width: 200%;
+  width: 100%;
   max-width: 1000px;
   justify-self: center;
 }
