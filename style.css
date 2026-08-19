@@ -375,7 +375,7 @@ h2 {
 
 .fold-gallery {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 420px));
+  grid-template-columns: repeat(2, minmax(0, 560px));
   justify-content: center;
   align-items: center;
   gap: clamp(50px, 8vw, 120px);
@@ -385,7 +385,7 @@ h2 {
 .fold-layout,
 .fold-diagram {
   width: 100%;
-  max-width: 420px;
+  max-width: 560px;
   justify-self: center;
 }
 
@@ -701,9 +701,12 @@ h2 {
     font-weight: 520;
   }
 
-  .collective-intro h2 {
-  font-size: clamp(34px, 10vw, 46px);
-  overflow-wrap: anywhere;
+.collective-intro h2 {
+  font-size: 30px;
+  line-height: 1.05;
+  letter-spacing: -.03em;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
   /* FOOTER */
