@@ -384,7 +384,7 @@ h2 {
 
 .fold-layout,
 .fold-diagram {
-  width: 100%;
+  width: 200%;
   max-width: 1000px;
   justify-self: center;
 }
